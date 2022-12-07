@@ -5,11 +5,12 @@ import {globalStyles} from '../styles/global';
 export default function ReviewDetails({navigation}) {
   return (
     <View style={globalStyles.container}>
-      <Text style={globalStyles.titleText}>{navigation.getParam('title')}</Text>
+      {/* <Text style={globalStyles.titleText}>{navigation.getParam('title')}</Text>
       <Text style={globalStyles.titleText}>
         {navigation.getParam('rating')}
       </Text>
-      <Text style={globalStyles.titleText}>{navigation.getParam('body')}</Text>
+      <Text style={globalStyles.titleText}>{navigation.getParam('body')}</Text> */}
+      <Text style={{color: '#333'}}>This is review detail page</Text>
     </View>
   );
 }
